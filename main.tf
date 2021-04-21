@@ -1,5 +1,5 @@
 resource "aws_instance" "evil_instance" {
-  ami           = "ami-06ffade19910cbfc0"
+  ami           = "ami-0857b0ef93a75300f"
   instance_type = "t2.micro"
 
   tags = {
